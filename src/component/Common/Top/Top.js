@@ -1,10 +1,10 @@
 import React from 'react';
-
+import {Link} from "react-router-dom";
 const Top = () =>{
     return ( 
     <div class="topbar">
    
-    <div class="topbar-left"><a href="index.html" class="logo"><span>ADMINISTRATOR</span><i><img src="assets/images/logo-sm.png" height="48" alt="logo"/></i></a></div>
+    <div class="topbar-left"><Link to={{pathname : "/"}}><a href="#" class="logo"><span >ADMINISTRATOR</span><i><img src="assets/images/logo-sm.png" height="48" alt="logo"/></i></a></Link></div>
     <nav class="navbar-custom">
         <ul class="navbar-right list-inline float-right mb-0">
             <li class="dropdown notification-list list-inline-item d-none d-md-inline-block">

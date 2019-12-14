@@ -1,6 +1,5 @@
 import React from 'react';
-import Top from '../Top/Top';
-
+import {Link} from 'react-router-dom';
 const Left = () =>{
     return(
         <div class="left side-menu">
@@ -36,11 +35,13 @@ const Left = () =>{
                 
                     <li><a href="javascript:void(0);" class="waves-effect"><i class="ti-package"></i> <span>Catalog <span class="float-right menu-arrow"><i class="mdi mdi-chevron-right"></i></span></span></a>
                         <ul class="submenu">
-                            <li><a href="#">Submenu-1</a></li>
-                             <li><a href="#">Submenu-2</a></li>
-                              <li><a href="#">Submenu-3</a></li>
-                               <li><a href="#">Submenu-4</a></li>
-                                <li><a href="#">Submenu-5</a></li>
+                            <li><Link to={{ pathname : "/Login"}}>Category</Link></li>
+                             <li><Link to={{pathname : "/products"}}>Products</Link></li>
+                              <li><a href="#">Brands</a></li>
+                               <li><a href="#">Attributes</a></li>
+                                <li><a href="#">Options</a></li>
+                                <li><a href="#">Filter</a></li>
+                                <li><a href="#">Review</a></li>
                             
                         </ul>
                     </li>
