@@ -1,7 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import "./Product.css";
 export const ProductDispaly = () => {
-    return(
+     return(
     <div class="content-page">
     
     <div class="content">
@@ -194,7 +195,11 @@ export const ProductDispaly = () => {
 }
 
 export const AddProducts = () => {
-
+    const style ={
+        width: "0px",
+        height: "0px",
+        overflow: "hidden"
+} 
     return(
         <div class="content-page">
            
@@ -311,22 +316,19 @@ export const AddProducts = () => {
                     <div class="" id="profile2" role="tabpanel">
                     <div data-repeater-list="outer-group" class="outer">
                         <div data-repeater-item="" class="outer">
-                            <div class="form-group"><label>Main/Thumbnail Image</label> <input type="file" class="filestyle" data-buttonname="btn-secondary" id="filestyle-0" tabindex="-1" /><div class="bootstrap-filestyle input-group"><input type="text" class="form-control " placeholder="" disabled=""/> <span class="group-span-filestyle input-group-append" tabindex="0"><label for="filestyle-0" class="btn btn-secondary "><span class="icon-span-filestyle fas fa-folder-open"></span> <span class="buttonText">Choose file</span></label></span></div></div>
-                            
-                            <div class="form-group mb-0"><label>Product Images</label> <input type="file" class="filestyle" data-input="false" data-buttonname="btn-secondary" id="filestyle-1" tabindex="-1" /><div class="bootstrap-filestyle input-group"><span class="group-span-filestyle " tabindex="0"><label for="filestyle-1" class="btn btn-secondary "><span class="icon-span-filestyle fas fa-folder-open"></span> <span class="buttonText">Choose file</span></label></span></div></div>
-                            
-                            <br/>
-                            <div class="form-group mb-0"> <input type="file" class="filestyle" data-input="false" data-buttonname="btn-secondary" id="filestyle-1" tabindex="-1" /><div class="bootstrap-filestyle input-group"><span class="group-span-filestyle " tabindex="0"><label for="filestyle-1" class="btn btn-secondary "><span class="icon-span-filestyle fas fa-folder-open"></span> <span class="buttonText">Choose file</span></label></span></div></div>
-
-                            <br/>
-                            <div class="form-group mb-0"> <input type="file" class="filestyle" data-input="false" data-buttonname="btn-secondary" id="filestyle-1" tabindex="-1" /><div class="bootstrap-filestyle input-group"><span class="group-span-filestyle " tabindex="0"><label for="filestyle-1" class="btn btn-secondary "><span class="icon-span-filestyle fas fa-folder-open"></span> <span class="buttonText">Choose file</span></label></span></div></div>
-                                
-                            <br/>
-                            <div class="form-group mb-0"> <input type="file" class="filestyle" data-input="false" data-buttonname="btn-secondary" id="filestyle-1" tabindex="-1" /><div class="bootstrap-filestyle input-group"><span class="group-span-filestyle " tabindex="0"><label for="filestyle-1" class="btn btn-secondary "><span class="icon-span-filestyle fas fa-folder-open"></span> <span class="buttonText">Choose file</span></label></span></div></div>
-                                
-                            <br/>
-                            <div class="form-group mb-0"> <input type="file" class="filestyle" data-input="false" data-buttonname="btn-secondary" id="filestyle-1" tabindex="-1"/><div class="bootstrap-filestyle input-group"><span class="group-span-filestyle " tabindex="0"><label for="filestyle-1" class="btn btn-secondary "><span class="icon-span-filestyle fas fa-folder-open"></span> <span class="buttonText">Choose file</span></label></span></div></div>
-                            
+                        <br/>
+                        <div class="container">
+                            <div class="row">
+                            <div class="col-sm-2 imgUp">
+                                <div class="imagePreview"></div>
+                            <label class="btn btn-primary">
+                                                                                    Upload<input type="file" class="uploadFile img"  style={style}/>
+                                            </label>
+                            </div>
+                            <i class="fa fa-plus imgAdd"></i>
+                            </div>
+                            </div>
+										    		
                         </div>
                     </div>
                 </div>
