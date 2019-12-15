@@ -38,11 +38,11 @@ const Left = () =>{
                         <ul class="submenu">
                             <li><Link to={{ pathname : "/Category"}}>Category</Link></li>
                              <li><Link to={{pathname : "/products"}}>Products</Link></li>
-                              <li><a href="#">Brands</a></li>
-                               <li><a href="#">Attributes</a></li>
+                              <li><Link to={{pathname : "/brand"}}>Brands</Link></li>
+                               {/* <li><a href="#">Attributes</a></li>
                                 <li><a href="#">Options</a></li>
                                 <li><a href="#">Filter</a></li>
-                                <li><a href="#">Review</a></li>
+                                <li><a href="#">Review</a></li> */}
                             
                         </ul>
                     </li>

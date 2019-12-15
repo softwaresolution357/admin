@@ -3,6 +3,7 @@ import {  BrowserRouter ,Route, Switch } from 'react-router-dom';
 import  Login from './component/Login/login';
 import  {ProductDispaly,AddProducts} from './component/Catalog/Products/Products';
 import {Category,AddCategory} from './component/Catalog/Category/Category'
+import {Brand, AddBrand} from './component/Catalog/Brands/Brand';
 import Admin from './component/Admin/Admin';
 import Top from './component/Common/Top/Top';
 import Left from './component/Common/Left/Left';
@@ -35,6 +36,8 @@ function App() {
                 <Route exact path = "/addProducts" component = {AddProducts}/>
                 <Route exact path = "/Category" component= {Category} />
                 <Route exact path = "/AddCategory" component = {AddCategory} />
+                <Route exact path = "/Brand" component = {Brand} />
+                <Route exact path = "/addbrand" component = {AddBrand} />
                 </switch>
                 
                 <Footer />
