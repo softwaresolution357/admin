@@ -22,8 +22,9 @@ const Left = () =>{
                             
                         </ul> */}
                     </li>
-                    <li><a href="#" class="waves-effect"><i class="ti-receipt"></i><span> Media/files Manager <span class="badge badge-pill badge-success float-right">9</span></span></a>
-                        {/* <ul class="submenu">
+                    <li><a href="#" class="waves-effect"><i class="ti-receipt"></i><span> Media/files Manager </span></a>
+                        {
+                        /*<span class="badge badge-pill badge-success float-right">9</span>/* <ul class="submenu">
                             <li><a href="#">Submenu-1</a></li>
                              <li><a href="#">Submenu-2</a></li>
                               <li><a href="#">Submenu-3</a></li>
