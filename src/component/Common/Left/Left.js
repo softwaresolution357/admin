@@ -10,27 +10,27 @@ const Left = () =>{
                 <ul class="metismenu" id="side-menu">
                     <li class="menu-title">Main</li>
                     <li><a href="index.html" class="waves-effect"><i class="ti-home"></i><span class="badge badge-primary badge-pill float-right">2</span> <span>Dashboard</span></a></li>
-                    
-                    <li class="menu-title">Components</li>
-                    <li><a href="javascript:void(0);" class="waves-effect"><i class="ti-package"></i> <span>Users <span class="float-right menu-arrow"><i class="mdi mdi-chevron-right"></i></span></span></a>
-                        <ul class="submenu">
+{/*                     
+                    <li class="menu-title">Components</li> */}
+                    <li><a href="#" class="waves-effect"><i class="ti-package"></i> <span>Users <span class="float-right menu-arrow"><i class="mdi mdi-chevron-right"></i></span></span></a>
+                        {/* <ul class="submenu">
                             <li><a href="#">Submenu-1</a></li>
                              <li><a href="#">Submenu-2</a></li>
                               <li><a href="#">Submenu-3</a></li>
                                <li><a href="#">Submenu-4</a></li>
                                 <li><a href="#">Submenu-5</a></li>
                             
-                        </ul>
+                        </ul> */}
                     </li>
-                    <li><a href="javascript:void(0);" class="waves-effect"><i class="ti-receipt"></i><span> Media/files Manager <span class="badge badge-pill badge-success float-right">9</span></span></a>
-                        <ul class="submenu">
+                    <li><a href="#" class="waves-effect"><i class="ti-receipt"></i><span> Media/files Manager <span class="badge badge-pill badge-success float-right">9</span></span></a>
+                        {/* <ul class="submenu">
                             <li><a href="#">Submenu-1</a></li>
                              <li><a href="#">Submenu-2</a></li>
                               <li><a href="#">Submenu-3</a></li>
                                <li><a href="#">Submenu-4</a></li>
                                 <li><a href="#">Submenu-5</a></li>
                             
-                        </ul>
+                        </ul> */}
                     </li>
                 
                     <li><a href="javascript:void(0);" class="waves-effect"><i class="ti-package"></i> <span>Catalog <span class="float-right menu-arrow"><i class="mdi mdi-chevron-right"></i></span></span></a>
