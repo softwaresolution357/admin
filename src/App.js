@@ -2,6 +2,7 @@ import React from 'react';
 import {  BrowserRouter ,Route, Switch } from 'react-router-dom';
 import  Login from './component/Login/login';
 import  {ProductDispaly,AddProducts} from './component/Catalog/Products/Products';
+import {Category,AddCategory} from './component/Catalog/Category/Category'
 import Admin from './component/Admin/Admin';
 import Top from './component/Common/Top/Top';
 import Left from './component/Common/Left/Left';
@@ -32,6 +33,8 @@ function App() {
                 <Route exact path="/" component = {Admin}/>
                 <Route  exact path="/products" component={ProductDispaly} />
                 <Route exact path = "/addProducts" component = {AddProducts}/>
+                <Route exact path = "/Category" component= {Category} />
+                <Route exact path = "/AddCategory" component = {AddCategory} />
                 </switch>
                 
                 <Footer />
