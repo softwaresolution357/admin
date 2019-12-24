@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import "./Product.css";
+import { Image } from "./image"
+// import "./Product.css";
 export const ProductDispaly = () => {
      return(
     <div class="content-page">
@@ -87,12 +88,11 @@ export const ProductDispaly = () => {
                 <td>Combo Deals</td>
 				<td>Latest Dealz</td>
 				<td>
-				<a class="btn btn-primary waves-effect waves-light" href="#" role="button"> <i class="fas fa-eye"></i> View</a> 
-				<a class="btn btn-primary waves-effect waves-light" href="#" role="button">Edit</a> 
-				<button type="button" class="btn btn-dark waves-effect waves-light">Delete</button>
+				<a class="btn btn-primary waves-effect waves-light" href="#" role="button" title="View"> <i class="fas fa-eye"></i></a> 
+				<a class="btn btn-primary2 waves-effect waves-light" href="#" role="button" title="Edit"><i class="fas fa-pencil-alt"></i></a> 
+				<button type="button" class="btn btn-dark red waves-effect waves-light" title="Delete"><i class="far fa-trash-alt"></i></button>
 				</td>
-            </tr>
-			
+			</tr>
 			<tr>
                 <th scope="row"><div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" id="customCheck1" /> <label class="custom-control-label" for="customCheck1" ></label></div></th>
                 <td><img src="https://images-na.ssl-images-amazon.com/images/I/71ERfTd2-KL._UX679_.jpg" width="50" height="50"/> A1 Smart Watch + TWS Mini Earpods</td>
@@ -100,9 +100,9 @@ export const ProductDispaly = () => {
                 <td>Combo Deals</td>
 				<td>Latest Dealz</td>
 				<td>
-				<a class="btn btn-primary waves-effect waves-light" href="#" role="button"> <i class="fas fa-eye"></i> View</a> 
-				<a class="btn btn-primary waves-effect waves-light" href="#" role="button">Edit</a> 
-				<button type="button" class="btn btn-dark waves-effect waves-light">Delete</button>
+				<a class="btn btn-primary waves-effect waves-light" href="#" role="button" title="View"> <i class="fas fa-eye"></i></a> 
+				<a class="btn btn-primary2 waves-effect waves-light" href="#" role="button" title="Edit"><i class="fas fa-pencil-alt"></i></a> 
+				<button type="button" class="btn btn-dark red waves-effect waves-light" title="Delete"><i class="far fa-trash-alt"></i></button>
 				</td>
             </tr>
 			
@@ -118,11 +118,11 @@ export const ProductDispaly = () => {
                 <td>Combo Deals</td>
 				<td>Latest Dealz</td>
 				<td>
-				<a class="btn btn-primary waves-effect waves-light" href="#" role="button"> <i class="fas fa-eye"></i> View</a> 
-				<a class="btn btn-primary waves-effect waves-light" href="#" role="button">Edit</a> 
-				<button type="button" class="btn btn-dark waves-effect waves-light">Delete</button>
+				<a class="btn btn-primary waves-effect waves-light" href="#" role="button" title="View"> <i class="fas fa-eye"></i></a> 
+				<a class="btn btn-primary2 waves-effect waves-light" href="#" role="button" title="Edit"><i class="fas fa-pencil-alt"></i></a> 
+				<button type="button" class="btn btn-dark red waves-effect waves-light" title="Delete"><i class="far fa-trash-alt"></i></button>
 				</td>
-            </tr>
+                            </tr>
 			
 			<tr>
                 <th scope="row"><div class="custom-control custom-checkbox"><input type="checkbox" class="custom-control-input" id="customCheck1" /> <label class="custom-control-label" for="customCheck1" ></label></div></th>
@@ -131,9 +131,9 @@ export const ProductDispaly = () => {
                 <td>Combo Deals</td>
 				<td>Latest Dealz</td>
 				<td>
-				<a class="btn btn-primary waves-effect waves-light" href="#" role="button"> <i class="fas fa-eye"></i> View</a> 
-				<a class="btn btn-primary waves-effect waves-light" href="#" role="button">Edit</a> 
-				<button type="button" class="btn btn-dark waves-effect waves-light">Delete</button>
+				<a class="btn btn-primary waves-effect waves-light" href="#" role="button" title="View"> <i class="fas fa-eye"></i></a> 
+				<a class="btn btn-primary2 waves-effect waves-light" href="#" role="button" title="Edit"><i class="fas fa-pencil-alt"></i></a> 
+				<button type="button" class="btn btn-dark red waves-effect waves-light" title="Delete"><i class="far fa-trash-alt"></i></button>
 				</td>
             </tr>
 			
@@ -143,10 +143,10 @@ export const ProductDispaly = () => {
                 <td>9995 in Stock</td>
                 <td>Combo Deals</td>
 				<td>Latest Dealz</td>
-				<td>
-				<a class="btn btn-primary waves-effect waves-light" href="#" role="button"> <i class="fas fa-eye"></i> View</a> 
-				<a class="btn btn-primary waves-effect waves-light" href="#" role="button">Edit</a> 
-				<button type="button" class="btn btn-dark waves-effect waves-light">Delete</button>
+                <td>
+                <a class="btn btn-primary waves-effect waves-light" href="#" role="button" title="View"> <i class="fas fa-eye"></i></a> 
+				<a class="btn btn-primary2 waves-effect waves-light" href="#" role="button" title="Edit"><i class="fas fa-pencil-alt"></i></a> 
+				<button type="button" class="btn btn-dark red waves-effect waves-light" title="Delete"><i class="far fa-trash-alt"></i></button>
 				</td>
             </tr>
 			
@@ -159,7 +159,7 @@ export const ProductDispaly = () => {
 </div>
                                 </div><br></br>
                                 <div class="row">
-                                    <div class="col-sm-12 col-md-7">
+                                   <div class="col-sm-12 col-md-7">
                                         <div class="dataTables_info" id="datatable_info" role="status" aria-live="polite">Showing 1 to 10 of 57 entries</div>
                                     </div>
                                     <div class="col-sm-12 col-md-5">
@@ -195,11 +195,7 @@ export const ProductDispaly = () => {
 }
 
 export const AddProducts = () => {
-    const style ={
-        width: "0px",
-        height: "0px",
-        overflow: "hidden"
-} 
+   
     return(
         <div class="content-page">
            
@@ -311,27 +307,9 @@ export const AddProducts = () => {
                 </form>
                 </div>
                 
-                
+                {/* imge upload section */}
                 <div class="tab-pane p-3" id="profile2" role="tabpanel">
-                    <div class="" id="profile2" role="tabpanel">
-                    <div data-repeater-list="outer-group" class="outer">
-                        <div data-repeater-item="" class="outer">
-                        <br/>
-                        <div class="container">
-                            <div class="row">
-                            <div class="col-sm-2 imgUp">
-                                <div class="imagePreview"></div>
-                            <label class="btn btn-primary">
-                                                                                    Upload<input type="file" class="uploadFile img"  style={style}/>
-                                            </label>
-                            </div>
-                            <i class="fa fa-plus imgAdd"></i>
-                            </div>
-                            </div>
-										    		
-                        </div>
-                    </div>
-                </div>
+              <Image />
                 </div>
                 
             
