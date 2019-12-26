@@ -195,7 +195,7 @@ export const ProductDispaly = () => {
 }
 
 export const AddProducts = () => {
-   
+
     return(
         <div class="content-page">
            
@@ -310,6 +310,7 @@ export const AddProducts = () => {
                 {/* imge upload section */}
                 <div class="tab-pane p-3" id="profile2" role="tabpanel">
               <Image />
+              {/* <ScriptFile /> */}
                 </div>
                 
             
@@ -449,6 +450,7 @@ export const AddProducts = () => {
             
                     </div>
     </div>
+    
     </div>
     )
 

@@ -126,11 +126,11 @@ const Top = () => {
           </li>
         </ul>
         <ul class="list-inline menu-left mb-0">
-          <li class="float-left">
+          {/* <li class="float-left">
             <button class="button-menu-mobile open-left waves-effect">
               <i class="mdi mdi-menu"></i>
             </button>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>

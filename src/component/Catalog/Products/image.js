@@ -1,11 +1,14 @@
 import React from 'react';
 import './image.css';
+import ImageUpload from './image_upload';
+
 export const Image = () => {
   const style = {
     width: '0px',
     height: '0px',
     overflow: 'hidden'
   };
+
   return (
     <div class="" id="profile2" role="tabpanel">
       <div data-repeater-list="outer-group" class="outer">
@@ -20,7 +23,7 @@ export const Image = () => {
                   <input type="file" class="uploadFile img" style={style} />
                 </label>
               </div>
-              <i class="fa fa-plus imgAdd"></i>
+              <i class="fa fa-plus imgAdd" onClick={ImageUpload}></i>
             </div>
           </div>
         </div>

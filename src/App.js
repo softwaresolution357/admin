@@ -12,13 +12,22 @@ import Top from './component/Common/Top/Top';
 import Left from './component/Common/Left/Left';
 import Footer from './component/Common/Footer/Footer';
 
+// function JavaScriptFile() {
+//   const script = document.createElement('script');
+//   script.src = '/assets/js/image_uploads';
+//   script.async = true;
+//   // script.onload = () => this.scriptLoad();
+//   document.body.appendChild(script);
+// }
 function AdminDisplay() {
   return (
     <div>
       <Top />
       <Left />
       <Admin />
+      {/* <JavaScriptFile /> */}
       <Footer />
+      {/* <JavaScriptFile /> */}
     </div>
   );
 }
@@ -28,6 +37,7 @@ function Products() {
       <Top />
       <Left />
       <ProductDispaly />
+      {/* <JavaScriptFile /> */}
       <Footer />
     </div>
   );
@@ -48,6 +58,7 @@ function category() {
       <Top />
       <Left />
       <Category />
+      {/* <JavaScriptFile /> */}
       <Footer />
     </div>
   );
@@ -68,6 +79,7 @@ function brand() {
       <Top />
       <Left />
       <Brand />
+      {/* <JavaScriptFile /> */}
       <Footer />
     </div>
   );
@@ -78,6 +90,7 @@ function addbrand() {
       <Top />
       <Left />
       <AddBrand />
+      {/* <JavaScriptFile /> */}
       <Footer />
     </div>
   );
